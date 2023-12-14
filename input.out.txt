@@ -1,0 +1,28 @@
+
+DescArrayCheck 112;104;52;32;12;10
+Result: 1 (Array elements are sorted in descending order)
+
+DescArrayCheck  12;14;52;132;212
+Result: 0 (Array elements are not sorted in descending order)
+
+DescArrayCheck  52;13;21;3
+Result: 0 (Array elements are not sorted in descending order)
+
+DescArrayCheck 14
+Result: 1 (Array elements are sorted in descending order)
+
+DecToHex 4253 (Decimal)
+Result: 109D  (Hexadecimal)
+
+DecToHex 314 (Decimal)
+Result: 13A  (Hexadecimal)
+
+Noccurrences ababababb  bab  2
+Result: true ("ababababb" contains more than 2 occurrences of "bab")
+
+Noccurrences 2121221222  212  5
+Result: false ("2121221222" contains less than 5 occurrences of "212")
+
+Noccurrences yyyyyy  yyy  3
+Result: true ("yyyyyy" contains more than 3 occurrences of "yyy")
+

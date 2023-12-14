@@ -1,0 +1,10 @@
+9
+DescArrayCheck 112;104;52;32;12;10
+DescArrayCheck 12;14;52;132;212
+DescArrayCheck 52;13;21;3
+DescArrayCheck 14
+DecToHex 4253
+DecToHex 314
+Noccurrences ababababb bab 2
+Noccurrences 2121221222 212 5
+Noccurrences yyyyyy yyy 3
